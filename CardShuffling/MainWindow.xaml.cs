@@ -81,7 +81,7 @@ namespace CardShuffling
 
         private void ShuffleButton_Click(object sender, RoutedEventArgs e)
         {    
-            // Cards need to be shuffled  randomly 
+            // Cards need to be shuffled  randomly.
             Random random = new Random();
             for (int i = 0; i <1000; i++)
             {
