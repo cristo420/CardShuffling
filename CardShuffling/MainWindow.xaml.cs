@@ -95,7 +95,7 @@ namespace CardShuffling
                 cards[randomcard2] = temp;
             }
 
-            // Print out cards into the the text block to the side.
+            // Print out cards into the the text block to the side
             ShuffledCards.Document.Blocks.Clear();
             for (int i = 0; i <  cards.Length; i++)
             {
